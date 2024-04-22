@@ -12,16 +12,19 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.imagem {
+    display: flex;
+    justify-content: center;
+}
 
 .cubo_img{
-    margin-left: 50px;
     width: 200px;
     height: 200px;
 }
 
 .titulo{
     margin-bottom: 10px;
-    margin-left: 40px;
+    text-align: center;
 }
 
 .frase_email,.frase_senha{
@@ -69,8 +72,11 @@ body{
     font-size: 14px;
 }
 
-.esquecer_senha{
-    margin-left: 130px;
+.forget_password{
+    display: flex;
+    justify-content: right;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 a{

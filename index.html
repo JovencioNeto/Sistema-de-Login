@@ -10,7 +10,9 @@
 </head>
 <body>
     <div class="container">
-        <img src="./src/img/cubo.png" alt="cubo_img" class="cubo_img">
+        <div class="imagem">
+            <img src="./src/img/cubo.png" alt="cubo_img" class="cubo_img">
+        </div>
 
         <h2 class="titulo">Sistema de Login</h2>
 
@@ -20,10 +22,10 @@
         <input type="email" placeholder="   Digite seu email" class="email" id="email" name="email"> <br>
 
         <label class="frase_senha" for="password">Senha</label> <br>
-        <input type="password" placeholder="   ***************" class="password" id="password" name="password"> <br> <br>
-
-        <a href="#" class="esquecer_senha">Esqueci minha senha</a> <br> <br>
-
+        <input type="password" placeholder="   ***************" class="password" id="password" name="password"> <br>
+        <div class="forget_password">
+        <a href="#">Esqueci minha senha</a> <br> <br>
+        </div>
         <button id="button">Entrar</button>
         
         <p class="creditos">Não tem uma conta? <a href="#">Cadastre-se</a></p>
