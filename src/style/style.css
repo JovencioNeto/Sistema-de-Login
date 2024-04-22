@@ -59,12 +59,14 @@ body{
     color: #999;
     text-align-last: center;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .criador{
     margin-top: 30px;
     color: #999;
     text-align-last: center;
+    font-size: 14px;
 }
 
 .esquecer_senha{
