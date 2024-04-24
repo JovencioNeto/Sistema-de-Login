@@ -1,5 +1,6 @@
 # Sistema de Login básico
-
+ - Esse site é um modelo de sistema de Login bem básico e sujeito a melhorias, utilizei ele como aprendizagem para melhorar minhas habilidades com JavaScript, HTML e CSS.
+ - Nele, se por acaso o usuário logar utilizando o email: admin@admin.com, ele mostrará um pop pup com a frases "Login Sucessful".
 ## Visão Geral
 
 ## Funcionalidades
